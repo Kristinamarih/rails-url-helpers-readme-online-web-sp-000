@@ -1,5 +1,2 @@
 <h1><%= @posts.title %></h1>
 <p><%= @posts.description %></p>
-<% @posts.each do |post| %>
-  <div><%= link_to post.title, post_path(post) %></div>
-<% end %>
